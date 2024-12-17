@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1e90ff;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.dashboard-header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.dashboard-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.dashboard-header nav ul li {
+    font-size: 1rem;
+}
+
+.dashboard-header nav ul li a {
+    color: white;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.dashboard-header nav ul li a:hover {
+    background-color: #4682b4;
+}
+
+.dashboard-body {
+    flex: 1;
+    padding: 2rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
+.dashboard-body h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #1e90ff;
+}
+
+.dashboard-body p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.dashboard-footer {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    position: relative;
+}
+
+.dashboard-footer p {
+    margin: 0;
+}
